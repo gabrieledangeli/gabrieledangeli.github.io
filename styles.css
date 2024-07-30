@@ -1,7 +1,7 @@
 :root {
     --off-white : #FAF9F6;
-    --background-gray: #9f9f9f;
-    --background-dark_gray: #00000092;
+    --background-gray: #2b403420;
+    --background-dark_gray: #2b4034;
     --spacing-small: 8px;
     --spacing-medium: 16px;
     --spacing-large: 24px;
@@ -19,8 +19,9 @@ body {
     margin: 0;
     padding: 0;
     text-align: left;    
-    background-image: linear-gradient(rgba(0,0,0,0), rgba(0, 0, 0, 0.872)), url(images/GabrieleDAngeli.jpg);
-    background-size: cover;
+    background-image: linear-gradient(var(--background-gray), var(--background-dark_gray));
+    background-size: auto;
+    background-attachment: fixed;
 }
 
 header {
@@ -28,12 +29,12 @@ header {
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 7vw;
     margin-bottom: var(--spacing-small);
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 3vw;
     margin-top: var(--spacing-small);
 }
 
