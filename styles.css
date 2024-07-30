@@ -1,28 +1,45 @@
 :root {
     --off-white : #FAF9F6;
-    --background-gray: #ffffff00;
-    --background-dark_gray: #00000000;
+    --background-gray: #ffffff18;
+    --background-dark_gray: #00000075;
     --spacing-small: 8px;
     --spacing-medium: 16px;
     --spacing-large: 24px;
 }
 
+.fahkwang-light {
+    font-family: "Fahkwang", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fahkwang-regular {
+    font-family: "Fahkwang", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fahkwang-medium {
+    font-family: "Fahkwang", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
 .color-offw {
     color: var(--off-white);
 }
 
 * {
-    font-family: helvetica, serif;
+    font-family: 'Fahkwang', helvetica, sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
     text-align: left;    
-    background-image: linear-gradient(var(--background-gray), var(--background-dark_gray)), url(images/background.png);
+    background-image: linear-gradient(to bottom, var(--background-gray), var(--background-dark_gray)), url(images/background.png);
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -31,14 +48,21 @@ header {
 
 h1 {
     font-size: 7vw;
+    font-weight: 400;
     margin-bottom: var(--spacing-small);
 }
 
 h2 {
     font-size: 3vw;
+    font-weight: 400;
     margin-top: var(--spacing-small);
 }
 
+h3 {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
 #test_div {
-    height: 10vh;
+    height: 100vh;
 }
