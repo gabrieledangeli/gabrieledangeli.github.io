@@ -1,7 +1,7 @@
 :root {
     --off-white : #FAF9F6;
-    --background-gray: #2b403420;
-    --background-dark_gray: #2b4034;
+    --background-gray: #ffffff00;
+    --background-dark_gray: #00000000;
     --spacing-small: 8px;
     --spacing-medium: 16px;
     --spacing-large: 24px;
@@ -19,9 +19,10 @@ body {
     margin: 0;
     padding: 0;
     text-align: left;    
-    background-image: linear-gradient(var(--background-gray), var(--background-dark_gray));
-    background-size: auto;
+    background-image: linear-gradient(var(--background-gray), var(--background-dark_gray)), url(images/background.png);
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 header {
@@ -39,5 +40,5 @@ h2 {
 }
 
 #test_div {
-    height: 1000px;
+    height: 10vh;
 }
