@@ -1,15 +1,42 @@
+:root {
+    --off-white : #FAF9F6;
+    --background-gray: #9f9f9f;
+    --background-dark_gray: #00000092;
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+}
+
+.color-offw {
+    color: var(--off-white);
+}
+
+* {
+    font-family: helvetica, serif;
+}
+
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    text-align: left;    
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0, 0, 0, 0.872)), url(images/GabrieleDAngeli.jpg);
+    background-size: cover;
+}
+
+header {
     text-align: center;
 }
 
 h1 {
-    color: #333;
+    font-size: 100px;
+    margin-bottom: var(--spacing-small);
 }
 
-p {
-    color: #666;
+h2 {
+    font-size: 30px;
+    margin-top: var(--spacing-small);
+}
+
+#test_div {
+    height: 1000px;
 }
