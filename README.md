@@ -1,2 +1,1 @@
-# gabrieledangeli.github.io
-Gabriele's footprint in the developer world
+# Gabriele's footprint in the developer world
