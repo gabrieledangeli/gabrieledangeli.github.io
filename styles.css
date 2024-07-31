@@ -113,3 +113,59 @@ section p {
     line-height: 35px;
     word-spacing: 15px;
 }
+
+.about {
+    padding: 20px;
+    color: rgba(255,255,255,0.9);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.education {
+    background-color: #40a6ff;
+    padding: 20px;
+    color: rgba(255,255,255,0.9);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+}
+
+.projects {
+    background-color: #40a6ff;
+    padding: 20px;
+    color: rgba(255,255,255,0.9);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 300;
+}
+
+.publications {
+    background-color: #40a6ff;
+    padding: 20px;
+    color: rgba(255,255,255,0.9);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 400;
+}
+
+
+.contact {
+    background-color: #40a6ff;
+    padding: 20px;
+    color: rgba(255,255,255,0.9);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
+}
+
