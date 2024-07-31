@@ -9,6 +9,12 @@
     --spacing-large: 24px;
 }
 
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
 .fahkwang-light {
     font-family: "Fahkwang", sans-serif;
     font-weight: 300;
@@ -32,9 +38,8 @@
 }
 
 body {
-    margin: 0vh 0vh 0vh 0vh;
-    font-family: 'Fahkwang', helvetica, sans-serif;
-    text-align: left;    
+    font-family: 'Bebas Neue', 'Fahkwang', helvetica, sans-serif;
+    margin: 0;
     background-image: linear-gradient(to bottom, var(--background-gray), var(--background-dark_gray)), url(images/background.png);
     background-attachment: fixed;
     background-size: cover;
@@ -43,15 +48,25 @@ body {
 }
 
 header {
-    text-align: center;
+    position: sticky;
+    top:0;
+    text-align: left;
+    z-index: 1;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 header h1 {
-    font-size: 7vw;
     font-weight: 400;
-    margin-bottom: var(--spacing-small);
-    text-shadow: 2px 2px 3px var(--shadow-blue);
+    font-size: 8em;
+    letter-spacing: 0.125em;
+    line-height: 1.25em;
+    text-shadow: 2px 2px 2px var(--shadow-blue);
+    margin-top: 0;
+    margin-bottom: 1em;
+    
 }
+
 
 header h2 {
     font-size: 3vw;
@@ -66,22 +81,23 @@ header h3 {
     text-shadow: 2px 2px 3px var(--shadow-blue);
 }
 
-#after_header {
-    height: 10vh;
-}
-
 nav {
     color: var(--off-white);
-    font-size: 2vw;
+    background-color: #00000000;
+    font-size: 2.5em;
     font-weight: 400;
     text-shadow: 2px 2px 3px  var(--shadow-blue);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    padding: 1.75em;
 }
 
 
 nav ul {
+    position: sticky;
     list-style-type: none;
     text-align: center;
-    margin-bottom: 40vh;
 }
 
 nav ul li {
@@ -91,13 +107,6 @@ nav ul li {
 nav a {
     text-decoration: none;
     color: var(--off-white);
-}
-
-.nav-portrait{
-    float: left;
-    margin-left: 0px;
-    width: 25vw;
-    height: auto;
 }
 
 section {
@@ -114,13 +123,13 @@ section p {
     word-spacing: 15px;
 }
 
+
 .about {
     padding: 20px;
     color: rgba(255,255,255,0.9);
     position: sticky;
     top: 0;
     left: 0;
-    width: 100%;
     z-index: 100;
 }
 
@@ -131,7 +140,6 @@ section p {
     position: sticky;
     top: 0;
     left: 0;
-    width: 100%;
     z-index: 200;
 }
 
@@ -142,7 +150,6 @@ section p {
     position: sticky;
     top: 0;
     left: 0;
-    width: 100%;
     z-index: 300;
 }
 
@@ -153,7 +160,6 @@ section p {
     position: sticky;
     top: 0;
     left: 0;
-    width: 100%;
     z-index: 400;
 }
 
@@ -165,7 +171,6 @@ section p {
     position: sticky;
     top: 0;
     left: 0;
-    width: 100%;
     z-index: 500;
 }
 
