@@ -1,0 +1,9 @@
+:root {
+    --warm-white: #f6f4e1;
+    --background-blue: #091e49;
+}
+
+html {
+    background-color: var(--background-blue);
+    color: var(--warm-white)
+}
