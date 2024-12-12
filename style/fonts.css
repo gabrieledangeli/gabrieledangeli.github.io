@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'gascogne_serial-regular';
+    src: url('../fonts/gascogne/gascogne_serial-regular-webfont.woff2') format('woff2'),
+         url('../fonts/gascogne/gascogne_serial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
