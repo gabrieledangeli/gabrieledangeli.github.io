@@ -1,0 +1,13 @@
+TeX Gyre Heros 2.609, released 31 March 2026 by the GUST e-foundry.
+This site includes the regular, bold and italic OpenType files. The files
+are byte-for-byte copies from the upstream archive. The other font styles
+and TeX support files are available in the full distribution.
+
+Project
+https://www.gust.org.pl/projects/e-foundry/tex-gyre/heros
+
+Original OpenType archive
+https://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/tg_heros-otf-2_609-31_03_2026.zip
+
+Full distribution, including the upstream README and manifest
+https://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/tg_heros-TDS_distr-2_609-31_03_2026.zip
