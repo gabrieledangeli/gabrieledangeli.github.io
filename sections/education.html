@@ -9,23 +9,30 @@
 
     <title>Gabriele D'Angeli | Education</title>
 
-    <link rel="icon" href="../images/favicon/favicon.ico?v=gd" type="image/x-icon" />
-    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png?v=gd">
-    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png?v=gd">
-    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png?v=gd">
-    <link rel="icon" type="image/svg+xml" sizes="any" href="../images/favicon/gd.svg">
-    <link rel="manifest" href="../images/favicon/site.webmanifest?v=gd">
+    <link rel="icon" href="../images/favicon/gd-tab.ico?v=gd7" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png?v=gd7">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/gd-tab-32.png?v=gd7">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/gd-tab-16.png?v=gd7">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="../images/favicon/gd-tab.svg?v=gd7">
+    <link rel="manifest" href="../images/favicon/site.webmanifest?v=gd7">
      
     <link rel="stylesheet" href="../style/fonts.css" />
     <link rel="stylesheet" href="../style/reset.css" />
     <link rel="stylesheet" href="../style/styles.css" />
-    <script src="../JScripts/script.js" defer></script>
+    <script src="../scripts/navigation.js" defer></script>
 </head>
 
 <body>
-    <h1>Education</h1>
+    <header class="site-header">
+        <a class="site-brand" href="../index.html">Gabriele D'Angeli</a>
+        <button class="menu-toggle" type="button" popovertarget="site-nav" hidden>Menu</button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+            <a href="about.html">About</a>
+            <a href="education.html" aria-current="page">Education</a>
+        </nav>
+    </header>
 
-    <section id="education" class="education-content">
+    <main id="education" class="section-content" aria-label="Education">
         <p>
             I was born on February 20, 2000, in San Benedetto del Tronto, a coastal city in Italy, where I grew up and
             lived until I was 18.
@@ -51,11 +58,11 @@
             Artificial Intelligence. However, I was unsure whether to stay in Milan or try an experience abroad. So, as I worked to
             clarify my goals, I applied to EPFL.
         </p>
-    </section>
-    
-    <nav>
-        <a href="../index.html" aria-label="Go back to homepage">Go back</a>
-    </nav>
+
+        <nav>
+            <a href="../index.html" aria-label="Go back to homepage">Go back</a>
+        </nav>
+    </main>
 </body>
 
 </html>
